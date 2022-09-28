@@ -1,0 +1,77 @@
+body {
+  background-color: blue;
+}
+
+.nav-bar {
+  height: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+  margin-bottom: 5px;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.app-name li {
+  margin-top: -10px;
+  margin-bottom: 5px;
+  color: white;
+  list-style-type: none;
+}
+.notification {
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 10px;
+}
+.search-box {
+  margin-top: 8px;
+}
+.profile {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.current {
+  height: 40vh;
+  background-color: white;
+  display: flex;
+  display-direction: row;
+  flex-wrap: wrap;
+}
+.now-playing {
+  width: 60%;
+  margin-right: 9%;
+  background-color: green;
+  display: flex;
+}
+.similiar-artists {
+  width: 31%;
+  background-color: orange;
+  diplay: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.heading {
+  height: 10%;
+  margin-bottom: 19%;
+  border: 2px solid red;
+  border-radius: 4px;
+  /* font: weight 40px; */
+}
+.one {
+  text-align: center;
+  height: 23%;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+.two {
+  border: 2px solid red;
+  border-radius: 4px;
+  height: 25%;
+}
+.three {
+  border: 2px solid red;
+  border-radius: 4px;
+  height: 23%;
+}
