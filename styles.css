@@ -35,7 +35,7 @@ body {
 
 .current {
   margin-top: 40px;
-  height: 46vh;
+  height: 35vh;
   background-color: blue;
   display: flex;
   display-direction: row;
@@ -50,7 +50,7 @@ body {
 }
 
 .similiar-artists {
-  /* height: 90%; */
+  height: 90%;
   width: 31%;
   background-color: blue;
   diplay: flex;
@@ -58,7 +58,6 @@ body {
   flex-wrap: wrap;
 }
 .heading {
-  margin-top: 20px;
   height: 10%;
   margin-bottom: 10%;
 
@@ -130,4 +129,66 @@ body {
   padding-left: 149px;
   padding-top: 30px;
   color: white;
+}
+.recents {
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: blue;
+  margin-top: 4vh;
+}
+.songs-list {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: blue;
+  margin-right: 10%;
+}
+.recents-songs {
+  margin-left: -1%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+.songs {
+  height: 18%;
+  width: 100%;
+  background-color: voilet;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.song-number {
+  text-align: center;
+  padding-top: 15px;
+  width: 5%;
+}
+.song-photo {
+  padding-top: 3px;
+  width: 8%;
+}
+.song-name {
+  width: 64%;
+
+  font-family: "Varela Round", sans-serif;
+  font-weight: bolder;
+  padding-left: 30px;
+  padding-top: 14px;
+  color: white;
+}
+.song-liked {
+  width: 5%;
+
+  padding-top: 14px;
+}
+.song-plus {
+  width: 5%;
+
+  padding-left: 18px;
+  padding-top: 14px;
 }
