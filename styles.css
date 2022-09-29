@@ -131,7 +131,7 @@ body {
   color: white;
 }
 .recents {
-  height: 45vh;
+  height: 40vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -152,7 +152,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: blue;
 }
 .songs {
   height: 18%;
@@ -167,6 +167,7 @@ body {
   text-align: center;
   padding-top: 15px;
   width: 5%;
+  color: white;
 }
 .song-photo {
   padding-top: 3px;
@@ -189,6 +190,162 @@ body {
 .song-plus {
   width: 5%;
 
-  padding-left: 18px;
+  padding-left: 8px;
   padding-top: 14px;
+}
+.recents-songs-heading {
+  height: 22%;
+
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.recents-songs-heading span {
+  padding-top: 15px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.recents-songs-heading text {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  padding-top: 30px;
+  margin-left: 75px;
+}
+.recents-songs-one {
+  height: 17.5%;
+  margin-bottom: 5px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.recents-songs-one-number {
+  width: 8%;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+}
+.recents-songs-one-image {
+  width: 15%;
+}
+.recents-songs-one-name {
+  width: 63%;
+
+  font-family: "Varela Round", sans-serif;
+  font-weight: bolder;
+  padding-left: 30px;
+  padding-top: 14px;
+  color: white;
+}
+.recents-songs-one-icons {
+  width: 5%;
+
+  padding-top: 14px;
+  color: white;
+}
+.bottom {
+  height: 9vh;
+  margin: 0px 0px;
+  /* position: sticky; */
+  /* bottom: 0%; */
+  margin-top: 6px;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: violet;
+}
+.icons {
+  margin-left: 40%;
+  padding-top: 2px;
+  height: 65%;
+
+  /* border: 4px solid red; */
+  /* margin-left: 45%; */
+}
+.seek-icon {
+  /* margin-left: 25%; */
+  height: 20%;
+  margin-left: 8%;
+  margin-top: -2px;
+  /* border: 4px solid red; */
+  /* width: 60%; */
+  color: white;
+  margin-bottom: -13px;
+}
+.seek-icon input {
+  width: 70%;
+}
+.bottom-one {
+  width: 30%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bottom-two {
+  width: 48%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.bottom-three {
+  width: 22%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bottom-one-image {
+  padding-top: 8px;
+  padding-left: 30%;
+  height: 70px;
+  width: 70px;
+  /* background-color: white; */
+}
+.bottom-song-name {
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  padding-top: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bottom-one-image img {
+  border-radius: 50%;
+}
+.bottom-one-image span {
+  color: white;
+}
+.playlist-icon {
+  padding-top: 20px;
+  height: 15x;
+  width: 15px;
+  padding-right: 15px;
+}
+.switch-icon {
+  padding-top: 20px;
+  height: 15x;
+  width: 15px;
+  padding-right: 15px;
+}
+.sound span {
+  padding-top: 20px;
+  height: 15x;
+  width: 15px;
+  padding-right: 15px;
+}
+.full-screen {
+  padding-top: 28px;
+  height: 15x;
+  width: 15px;
+  padding-left: 10px;
 }
