@@ -152,7 +152,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: blue;
 }
 .songs {
   height: 18%;
@@ -167,6 +167,7 @@ body {
   text-align: center;
   padding-top: 15px;
   width: 5%;
+  color: white;
 }
 .song-photo {
   padding-top: 3px;
@@ -189,6 +190,58 @@ body {
 .song-plus {
   width: 5%;
 
-  padding-left: 18px;
+  padding-left: 8px;
   padding-top: 14px;
+}
+.recents-songs-heading {
+  height: 22%;
+
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.recents-songs-heading span {
+  padding-top: 15px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.recents-songs-heading text {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  padding-top: 30px;
+  margin-left: 75px;
+}
+.recents-songs-one {
+  height: 18%;
+  margin-bottom: 5px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.recents-songs-one-number {
+  width: 8%;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+}
+.recents-songs-one-image {
+  width: 15%;
+}
+.recents-songs-one-name {
+  width: 63%;
+
+  font-family: "Varela Round", sans-serif;
+  font-weight: bolder;
+  padding-left: 30px;
+  padding-top: 14px;
+  color: white;
+}
+.recents-songs-one-icons {
+  width: 5%;
+
+  padding-top: 14px;
+  color: white;
 }
