@@ -46,14 +46,87 @@ body {
   margin-right: 9%;
   background-color: purple;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+}
+.now-playing-poster {
+  width: 50%;
+  background-color: yellow;
+}
+.now-playing-poster img {
+  height: 100%;
+}
+.now-playing-about {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.now-playing-singer-name {
+  height: 20%;
+  margin-top: 13%;
+}
+.now-playing-singer-name span {
+  font-weight: 50px;
+  font-size: 50px;
+  color: white;
+  padding-bottom: 0%;
+  text-align: center;
+  padding-left: 20px;
+  font-family: "Varela Round", sans-serif;
+}
+.now-playing-singer-desg {
+  font-family: "Varela Round", sans-serif;
+
+  color: lightblue;
+  padding-left: 20px;
+}
+
+.now-playing-singer-desc {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.now-playing-singer-desc p {
+  font-family: "Varela Round", sans-serif;
+  color: lightblue;
+}
+.now-playing-play {
+  height: 15%;
+
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.button {
+  margin-top: 8px;
+  height: 100%;
+  width: 50%;
+}
+.button-style {
+  height: 30px;
+  width: 100px;
+  background-color: aquamarine;
+  font-family: "Varela Round", sans-serif;
+}
+.follow {
+  margin-top: 15px;
+  width: 49%;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+}
+.now-playing-total {
+  font-size: 13px;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  margin-left: 20px;
 }
 
 .similiar-artists {
   height: 90%;
   width: 31%;
   background-color: blue;
-  diplay: flex;
+
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -96,8 +169,9 @@ body {
   flex-wrap: wrap;
 }
 .one-image {
+  margin-left: 10%;
   height: 100%;
-  width: 30%;
+  width: 20%;
 }
 .one-name {
   font-family: "Varela Round", sans-serif;
@@ -119,8 +193,9 @@ body {
   width: 100%;
 }
 .two-image {
+  margin-left: 10%;
   height: 100%;
-  width: 30%;
+  width: 20%;
 
   /* margin-top: 1%; */
 }
@@ -157,7 +232,7 @@ body {
 .songs {
   height: 18%;
   width: 100%;
-  background-color: voilet;
+  background-color: purple;
   border: 1px solid red;
   display: flex;
   flex-direction: row;
@@ -175,6 +250,7 @@ body {
 }
 .song-name {
   width: 64%;
+  font-size: 25px;
 
   font-family: "Varela Round", sans-serif;
   font-weight: bolder;
@@ -184,12 +260,13 @@ body {
 }
 .song-liked {
   width: 5%;
+  color: white;
 
   padding-top: 14px;
 }
 .song-plus {
   width: 5%;
-
+  color: white;
   padding-left: 8px;
   padding-top: 14px;
 }
