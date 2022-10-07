@@ -2,6 +2,16 @@
 body {
   background-color: blue;
 }
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    width: 400px;
+    /* border: 1px solid black; */
+  }
+  .now-playing {
+    height: 30%;
+    width: 40%;
+  }
+}
 
 .nav-bar {
   height: 5vh;
@@ -10,10 +20,15 @@ body {
   background-color: blue;
   margin-bottom: 5px;
 }
-.logo {
-  height: 30px;
+.logo span {
+  height: 200px;
   width: 30px;
 }
+.app-name {
+  
+  height: 10%;
+}
+
 .app-name li {
   margin-top: -10px;
   margin-bottom: 5px;
@@ -22,7 +37,7 @@ body {
 }
 .notification {
   margin-top: 10px;
-  margin-left: 300px;
+  margin-left: 70%;
   margin-right: 10px;
 }
 .search-box {
@@ -35,6 +50,7 @@ body {
 
 .current {
   margin-top: 40px;
+
   height: 35vh;
   background-color: blue;
   display: flex;
@@ -144,7 +160,13 @@ body {
 .heading text {
   font-family: "Varela Round", sans-serif;
   color: white;
-  margin-left: 100px;
+  margin-left: 20%;
+}
+.similiar-artists-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* background-color: white; */
 }
 .one {
   text-align: center;
@@ -288,7 +310,7 @@ body {
   font-family: "Varela Round", sans-serif;
   color: white;
   padding-top: 30px;
-  margin-left: 75px;
+  margin-left: 10%;
 }
 .recents-songs-one {
   height: 17.5%;
